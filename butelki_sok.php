@@ -1,7 +1,5 @@
 <?php
-$lb = 99;
-// lb to liczba butelek
-
+$lb = 99; // lb to liczba butelek
 while($lb >= 2){
 	print "$lb butelek soku jabłkowego na ścianie, $lb butelek soku.";
 	$lb = $lb - 1;
