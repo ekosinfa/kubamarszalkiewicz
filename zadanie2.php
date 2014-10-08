@@ -1,5 +1,6 @@
 <?php
 //Państwa, miasta.
+//http://ideone.com/K2QlYQ
 $rzeczy = array(
 	"panstwa"=>array(
 		'I'=>'Irlandia',
