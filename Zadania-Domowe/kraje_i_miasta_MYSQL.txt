@@ -1,0 +1,8 @@
+Nazwy dziesięciu największych miast posortowanych po populacji:
+SELECT * FROM City
+ORDER BY Population DESC
+LIMIT 10
+---
+Ilość państw w tabeli:
+SELECT COUNT(*) FROM City
+---
