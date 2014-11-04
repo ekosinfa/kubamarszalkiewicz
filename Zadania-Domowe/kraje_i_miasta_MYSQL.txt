@@ -1,3 +1,4 @@
+---
 Nazwy dziesięciu największych miast posortowanych po populacji:
 SELECT * FROM City
 ORDER BY Population DESC
@@ -5,4 +6,12 @@ LIMIT 10
 ---
 Ilość państw w tabeli:
 SELECT COUNT(*) FROM City
+---
+Nazwy miast zaczynających się na "Kal":
+SELECT * FROM City
+WHERE name LIKE 'Kal%'
+---
+Ilość krajów w Europie Zachodniej:
+SELECT COUNT(Region) FROM Country
+WHERE Region LIKE 'Western Europe'
 ---
